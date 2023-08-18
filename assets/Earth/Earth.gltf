@@ -1,0 +1,323 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2143,
+      "type": "VEC3",
+      "max": [
+        1.0000002384185791,
+        0.99518465995788574,
+        1.000001072883606
+      ],
+      "min": [
+        -1.0000005960464478,
+        -0.99518477916717529,
+        -0.99999934434890747
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2143,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.99712163209915161,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99712163209915161,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2143,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.075741536915302277,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        -0.075741514563560486,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2143,
+      "type": "VEC2",
+      "max": [
+        0.99969935417175293,
+        0.99917852878570557
+      ],
+      "min": [
+        0.00026035308837890625,
+        0.00080335140228271484
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 11892,
+      "type": "SCALAR",
+      "max": [
+        2142.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 30,
+      "type": "SCALAR",
+      "max": [
+        0.96666669845581055
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 30,
+      "type": "VEC3",
+      "max": [
+        -48.900001525878906,
+        133.5,
+        50.700000762939453
+      ],
+      "min": [
+        -48.900001525878906,
+        133.5,
+        50.700000762939453
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 30,
+      "type": "VEC4",
+      "max": [
+        0.0,
+        0.0,
+        0.085445120930671692,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        0.99634289741516113
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 30,
+      "type": "VEC3",
+      "max": [
+        20.0,
+        20.0,
+        20.0
+      ],
+      "min": [
+        20.0,
+        20.0,
+        20.0
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 5,
+          "output": 6
+        },
+        {
+          "input": 5,
+          "output": 7
+        },
+        {
+          "input": 5,
+          "output": 8
+        }
+      ],
+      "name": "Earth"
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2022.3.5f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Earth.bin",
+      "byteLength": 151752
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 25716
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25716,
+      "byteLength": 25716
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 51432,
+      "byteLength": 34288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 85720,
+      "byteLength": 17144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 102864,
+      "byteLength": 47568
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 150432,
+      "byteLength": 120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 150552,
+      "byteLength": 360
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 150912,
+      "byteLength": 480
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 151392,
+      "byteLength": 360
+    }
+  ],
+  "images": [
+    {
+      "uri": "Earth_4k.jpg",
+      "name": "Earth_4k"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Earth"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Earth"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.6427876,
+        0.0,
+        -0.7660445
+      ],
+      "scale": [
+        20.0000019,
+        20.0,
+        20.0000019
+      ],
+      "translation": [
+        -48.9,
+        133.5,
+        -50.7
+      ],
+      "name": "Earth"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Earth"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Earth_4k"
+    }
+  ]
+}
